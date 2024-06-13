@@ -1,25 +1,21 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Ali Kamal",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "Developer",
+    bio: "I learn each thing where my passion drives.",
+    email: "alikamal.jaffri@gmail.com",
+    linkedin: "",
+    github: "alikamal-jaffri",
     instagram: "",
   },
   projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Work Log",
+    description: "Welcome to my Work log!",
   },
 
   // CONFIG configration (required)
@@ -67,7 +63,7 @@ const CONFIG = {
       appid: "", // Embed Code -> data-app-id value
     },
   },
-  isProd: process.env.VERCEL_ENV === "development", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   revalidateTime: 21600 * 7, // revalidate time for [slug], index
 }
 
